@@ -47,7 +47,7 @@
 @layer utilities {
   .text-stroke {
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-width: 1.8px;
     -webkit-text-stroke-color: #fff;
   }
   .btn_white  { 
@@ -61,8 +61,12 @@
     @apply mx-auto max-w-[1440px];
   }
 
+  .max-container-hero {
+    @apply mx-auto max-w-[1920px]
+  }
+
   .padding-container {
-    @apply lg:px-20 px-6 3xl:px-0;
+    @apply lg:px-20 px-6;
   }
 
   .flexCenter {
