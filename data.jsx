@@ -1,10 +1,9 @@
-
 // nav data
 export const navData = [
   { name: "home", path: "/" },
   { name: "about", path: "/about" },
   { name: "shop", path: "/shop" },
-  { name: "contact", path: "/contact" }
+  { name: "contact", path: "/contact" },
 ];
 
 //  category data
@@ -32,32 +31,32 @@ export const PopularData = [
 //  Testimonial data
 export const testimonialData = [
   {
-    url: '/person-1.jpg',
-    name: 'Lucas Taylor',
-    position: 'Customer',
+    url: "/person-1.jpg",
+    name: "Lucas Taylor",
+    position: "Customer",
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      "Было ужасно. Траванулся 2 раза, на третий раз чуть не умер, спасла скорая. Но по акции если брать, то почему бы и нет. Но не забудьте взять с собой активированный уголь.",
   },
   {
-    url: '/person-2.jpg',
-    name: 'Olivia Anderson',
-    position: 'Customer',
+    url: "/person-2.jpg",
+    name: "Olivia Anderson",
+    position: "Customer",
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      "Сюда меня привела подруга, сказав, что вкусно готовят. Ждала 2 часа свой заказ (сосиски). Больше сюда не приду, да и подруги у меня больше нет.",
   },
   {
-    url: '/person-3.jpg',
-    name: 'Emma Brown',
-    position: 'Customer',
+    url: "/person-3.jpg",
+    name: "Emma Brown",
+    position: "Customer",
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      "Худшее заведение на планете, цены космические, а еще официант плюнул в мой коктейль, сказал, что это секретный ингредиент и что так вкуснее...",
   },
   {
-    url: '/person-4.jpg',
-    name: 'Sophia Martinez',
-    position: 'Customer',
+    url: "/person-4.jpg",
+    name: "Sophia Martinez",
+    position: "Customer",
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      "Очень вкусно, все понравилось! Приду еще раз со всей семьей! Перед отправкой отзыва удалите эту часть, директор отправит деньги на счет.",
   },
 ];
 
@@ -84,19 +83,9 @@ export const FOOTER_LINKS = [
   },
   {
     title: "Contact Us",
-    links: [
-      "	203 Fake St. California",
-      "123-456-7890",
-      "info@foodi.com",
-    ],
+    links: ["	203 Fake St. California", "123-456-7890", "info@foodi.com"],
   },
 ];
 export const SOCIALS_DATA = {
-  links: [
-    "/facebook.svg",
-    "/instagram.svg",
-    "/twitter.svg",
-    "/youtube.svg",
-    "/linkedin.svg",
-  ],
+  links: ["/facebook.svg", "/instagram.svg", "/youtube.svg"],
 };

@@ -13,11 +13,11 @@ export default function Categories({ bg }) {
           At our establishment, we offer a diverse range of cuisine to satisfy
           every craving. Our menu is divided into several categories, including
           savory appetizers, fresh salads, hearty entrees, and indulgent
-          desserts. Whether you're in the mood for a light bite or a full-course
+          desserts. Whether you are in the mood for a light bite or a full-course
           meal, we have something to suit your taste buds. Come and join us for
           an unforgettable dining experience!
         </p>
-        <div className="flexCenter flex-wrap gap-12 lg:gap-14 mt-3">
+        <div className="flexCenter flex-wrap gap-12 lg:gap-14 mt-14">
           {categoryData.map((item, i) => (
             <div key={i} className="flexCenter flex-col gap-8">
               <div className="relative after:absolute after:-top-[10px] after:-bottom-[10px] 

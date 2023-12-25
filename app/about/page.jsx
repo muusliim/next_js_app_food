@@ -1,7 +1,12 @@
+import Features from "@/components/Features";
+import PagesHero from "@/components/PagesHero";
 
 const About = () => {
   return (
-    <div>About</div>
+    <main>
+      <PagesHero/>
+      <Features/>
+    </main>
   )
 }
 

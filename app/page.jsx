@@ -8,7 +8,7 @@ export default function Home() {
     <main>
       <Hero/> 
       <Features/>
-      <Categories/>
+      <Categories bg={'bg-[#fafafa]'}/>
       <Testimonials/>
     </main>
   )
