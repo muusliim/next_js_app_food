@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header
-      className="padding-container max-container flexBetween py-3 w-[90%] bg-white/30 
+      className="padding-container max-container flexBetween py-3 w-[90%] bg-white/80 
 		mx-auto fixed top-12 left-1/2 z-50 -translate-x-1/2 -translate-y-1/2 rounded-md shadow-lg gap-2 backdrop-blur-[3px]"
     >
       <Link href={"/"}>

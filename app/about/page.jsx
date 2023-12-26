@@ -4,7 +4,7 @@ import PagesHero from "@/components/PagesHero";
 const About = () => {
   return (
     <main>
-      <PagesHero/>
+      <PagesHero nextPage={'Shop'} heading={'About'} homePage={'Home'} linkPage={'/shop'}/>
       <Features/>
     </main>
   )
